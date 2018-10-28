@@ -1,0 +1,26 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "Back-End-Examen-Desarrollo",        
+        "node_port": 3000,        
+        "database": {
+            "user": "postgres",
+            "host": "localhost",
+            "database": "proyectoexamen",
+            "password": "1234567",
+            "port": 5432
+        }        
+    },
+    "production": {
+        "config_id": "production",
+        "app_name": "Back-End-Examen-Produccion",
+        "node_port": 8080,
+        "database": {
+            "user": "alejandro",
+            "host": "",
+            "database": "evaluaciones",
+            "password": "mysecretpassword",
+            "port": 5432
+        }  
+    }
+}
